@@ -1,0 +1,54 @@
+PSEUDOCODE:
+
+TASK 02 : Take three variables as input and add them without using the + operator (Use your head for this)
+
+
+1  START
+2
+3  // Input
+4  INPUT Number1
+5  INPUT Number2
+6  INPUT Number3
+7
+8  // Variables and Initialization
+9  SET sum to 0
+10
+11  // Process Steps
+12  SET sum to Number1 - ( - Number2) - ( - Number3)
+13
+14  // Output
+15  PRINT sum
+16
+17  END
+
+
+
+
+TASK 03 : Create a small calculator which only does ‘+’ or ‘-‘Operations. (Hint: Take three variable inputs with
+one being used for the operator)
+
+
+1  START
+2
+3  // Input
+4  INPUT Number1
+5  INPUT Number2
+6  INPUT operator 
+7
+8  // Variables and Initialization
+9    SET sum to 0
+10  SET subtract to 0
+11
+12  // Process Steps
+13  IF operator =  “+” THEN
+14     sum = Number1  + Number2
+15  IF operator =  “-” THEN
+16     subtract = Number1  - Number2
+17
+18  // Output
+19  IF operator =  “+” THEN
+20       PRINT “ The addition of the given number is: ‘sum’ “
+21  IF operator =  “-” THEN
+22       PRINT “ The subtraction of the given number is: ‘subtract’ “
+23  
+24   END
